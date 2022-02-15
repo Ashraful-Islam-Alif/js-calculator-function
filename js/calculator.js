@@ -11,17 +11,18 @@ function resultCalculation() {
     document.getElementById('head-number').innerText = b
 }
 
-
-
-
-
-
-
-/* function numberButton() {
-    let sevenclick = document.getElementsByClassName('number-button')
-    console.log(parseFloat(sevenclick))
+function lastDigitDelete() {
     let headNumber = document.getElementById('head-number')
-    console.log(headNumber.innerText)
-    headNumber.innerText = parseFloat(sevenclick.innerText)
-    console.log(headNumber.innerText)
-} */
+    let headText = headNumber.innerText
+    let editedText = headText.slice(0, -1)
+    headNumber.innerText = editedText
+}
+
+
+
+
+
+
+
+
+

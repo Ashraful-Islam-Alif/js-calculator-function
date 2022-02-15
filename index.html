@@ -28,13 +28,13 @@
 
 
 <body class="d-flex justify-content-center align-items-center">
-    <section class="main-container">
-        <header class="mt-4 mb-4">
-            <h1 class="text-center fw-bold">My <span class="text-warning">Calculator</span></h1>
+    <section class="main-container mt-5">
+        <header class="mb-4">
+            <h1 class="text-center fw-bold pt-5 mt-5">My <span class="text-warning">Calculator</span></h1>
         </header>
 
         <main>
-            <h1 id="head-number" class="text-end "></h1>
+            <h1 id="head-number" class="text-end"></h1>
             <hr>
             <div class="container text-center">
                 <div class="row row-cols-4 row-cols-lg-4 g-2 g-lg-4">
@@ -45,7 +45,7 @@
                     </div>
                     <div class="col">
                         <input class="btn-color border-0 bg-transparent p-2 text-warning fw-bolder fs-2" type="button"
-                            value="X" onclick="operationCalculation('X')">
+                            value="X" onclick="lastDigitDelete()">
                         <!-- <button id="delete-button" class="border-0 bg-white p-2 text-warning">X</button> -->
                     </div>
                     <div class="col">
